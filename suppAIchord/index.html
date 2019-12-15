@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+		<meta name="viewport" content="user-scalable = yes">
+
+		<title>Visualizing supplement-drug interactions in the scientific literature</title>
+		<meta name="author" content="Carrie Bennette">
+		<meta name="description" content="Visualizing supplement-drug interactions in the scientific literature">
+		<meta name="keywords" content="data visualization, information visualization, dataviz, datavis, infoviz, infovis">
+
+		<!-- Google fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,500" rel="stylesheet">
+
+		<!-- CSS Styling -->
+		<link href="css/style.css" rel="stylesheet">
+
+		<!-- Javascript -->
+		<script src="https://d3js.org/d3.v3.js"></script> 
+		<script src="js/load_data_script.js"></script>
+
+	</head>
+	
+	<body>
+		
+		<div id="overall-wrapper">
+
+			<div id="tooltip" class="hidden">
+				<p id="value"></p>
+			</div>
+
+		<div class="section-wrapper head-title">
+			<h1 id="title">Visualizing supplement-drug interactions</h1>
+			<h3 id="subtitle">reported in the scientific literature</h3>
+		</div>
+
+
+		<div class="section-wrapper">
+			<div id="Introduction">
+
+ 	  		<p>This chord diagram shows interactions reported in the scientific literature between a list of supplements and drugs curated by the <a href="https://allenai.org" target="_blank">Allen Institute for AI</a>. The algorithm automatically extracts evidence from publications and allows users to explore the resulting database via text-based searchers <a href="https://supp.ai/" target="_blank">here</a>. I created this chord diagram to facilitate visual exploration of the various interactions. Supplements are grouped quasi-functionally (e.g., minerals, vitamins, fatty acids) and shown as distinct colors. Clicking on the name or outer band of any supplement or drug will link to the relevant Supp.AI webpage with additional information about the agent and it's interactions. </p> 
+ 	  		</div>
+
+ 	  	</div>
+
+		<!-- create the chord diagram! -->
+		<div id = "chart">
+			
+			<script src="js/script.js"></script>
+
+		</div>
+
+	</div>
+
+			<!-- Footer -->
+			<div id="footer">
+				<div class="footer-bold">Created by <a href="https://carriebennette.github.io">Carrie Bennette</a></div>			
+				<div>Additional details and all code used to create this data visualization are available <a href="https://github.com/carriebennette/suppAIchord" target="_blank">here</a>.</div>
+			</div>
+
+  </body>   	
+
+</html>

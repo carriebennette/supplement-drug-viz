@@ -1,0 +1,135 @@
+
+
+
+body {
+	font-family: 'Lato', sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+}
+
+a, a:link, a:visited, a:active {
+  color: #1773a5;
+  border-bottom: 1px dotted rgba(23, 115, 165, .5);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  border-bottom: 1px solid #1773a5;
+}
+
+p, footer {
+	display: inline-block;
+	margin-block-start: 0em;
+	margin-block-end: 0em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+}
+
+
+.section-wrapper {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.head-title {
+	margin-right: 25px;
+}
+
+#overall-wrapper {
+	padding: 15px;
+	width: 1200px;
+}
+
+#title {
+	font-weight: 400;
+	text-align: right;
+	color: #191919;
+	margin-top: 0px;
+	margin-bottom: 5px;
+	text-transform: uppercase;
+	font-size: 30px;
+	line-height: 32px;
+	width: 300px;
+}
+
+#subtitle {
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 24px;
+	width: 300px;
+	text-align: right;
+	color: #191919;
+	margin-top: 5px;
+}
+
+#Introduction {
+	width: 800px;
+	line-height: 20px;
+}
+
+
+#Introduction p,
+#legend p {
+	font-weight: 400;
+	font-size: 15px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	color: #171717;
+}
+
+
+#chart {
+	display: inline-block;
+	vertical-align: top;
+	overflow: visible;
+	padding-right: 10px;
+	font-size: 11px;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	fill: #2B2B2B;
+}
+
+
+#tooltip {
+	position: absolute;
+	background-color: rgba(225, 225, 225, 0.6);
+	border-radius: 3px;
+	-webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+	-o-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+	box-shadow: 4px 4px 4px rgba(0, 100, 100, 0.2);
+	height: auto;
+	width: auto;
+	padding: 3px;
+	pointer-events: none;
+	font-family: Lato, sans-serif;
+	color: #474747;
+	font-size: 12px;
+}
+
+#tooltip.hidden {
+	display: none;
+}
+
+#tooltip {
+	margin: 0;
+	font-family: Lato, sans-serif;
+	line-height: 12px;
+}
+
+#footer {
+	margin-top: 25px;
+	margin-bottom: 25px;
+	font-size: 13px;
+
+}
+
+.footer-bold {
+	font-weight: 500;
+	font-size: 16px;
+	margin-bottom: 5px;
+	color: #191919;
+}
+
+
