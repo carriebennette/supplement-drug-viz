@@ -1,6 +1,6 @@
 # Visualizing supplement-drug interactions in the scientific literature
 
-I first found the [suppAI](https://supp.ai/) when the Allen Institute for AI posted an announcement on Twitter. It seemed like a really interesting corpus of scientific evidence regarding interactions of dietary and herbal supplements with each other and with prescription and over-the-counter medications. I played around with the online search functionality, but something felt missing.  I really want to get an overall sense of the data in a way that manually plugging in various supplemnet names wasn't providing.  I was also interested in flexing my data visualization muscles so decided I would try to visualize the connections.  You can see the final visualization here: https://carriebennette.github.io/supplement-drug-viz/
+I first found out about [SuppAI](https://supp.ai/) when the Allen Institute for AI posted an announcement on Twitter. It seemed like a really interesting corpus of scientific evidence regarding interactions of dietary and herbal supplements with each other and with prescription and over-the-counter medications. I played around with the online search functionality, but something felt missing.  I really want to get an overall sense of the data in a way that manually plugging in various supplemnet names wasn't providing.  I was also interested in flexing my data visualization muscles so decided I would try to visualize the connections.  You can see the final visualization here: https://carriebennette.github.io/supplement-drug-viz/
 
 # Raw data preparation
 
