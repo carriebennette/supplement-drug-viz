@@ -1,6 +1,6 @@
 # Visualizing supplement-drug interactions in the scientific literature
 
-I first found the [suppAI](https://supp.ai/) when the Allen Institute for AI posted an announcement on Twitter. It seemed like a really interesting corpus of scientific evidence regarding interactions of dietary and herbal supplements with each other and with prescription and over-the-counter medications. I played around with the online search functionality, but something felt missing.  I really want to get an overall sense of the data in a way that manually plugging in various supplemnet names wasn't providing.  I was also interested in flexing my data visualization muscles so decided I would try to visualize the connections.  
+I first found the [suppAI](https://supp.ai/) when the Allen Institute for AI posted an announcement on Twitter. It seemed like a really interesting corpus of scientific evidence regarding interactions of dietary and herbal supplements with each other and with prescription and over-the-counter medications. I played around with the online search functionality, but something felt missing.  I really want to get an overall sense of the data in a way that manually plugging in various supplemnet names wasn't providing.  I was also interested in flexing my data visualization muscles so decided I would try to visualize the connections.  You can see the final visualization here: https://carriebennette.github.io/suppAIchord
 
 # Raw data preparation
 
@@ -24,7 +24,7 @@ Getting the data into a format that would work with D3 turned out to be more of 
 
 ## Focusing on 'stronger' connections
 
-I really wanted to show "everything" in a single figure. Part of what impressed me about the database curated by AI2 was it's sheer size and complexity and I wanted to capture that visually.  When I created the figure that included everything, however, I quickly realized that there were tons of very weak connections that made the figure look messier than I had hoped.  You could tell things were complex, but you couldn't really see the important patterns amidst all the tiny lines going everywhere.  So I decided to focus only on interactions with at an interaction reported in at least 25 papers.  This change made the visualizing much more visually appealing and helps viewers see some of the patterns across the overall dataset more easily.
+I really wanted to show "everything" in a single figure. Part of what impressed me about the database curated by AI2 was it's sheer size and complexity and I wanted to capture that visually.  When I created the figure that included everything, however, I quickly realized that there were tons of very weak connections that made the figure look messier than I had hoped.  You could tell things were complex, but you couldn't really see the important patterns amidst all the tiny lines going everywhere.  So I decided to focus only on interactions with an interaction reported in at least 25 papers.  This change made the visualizion much more visually appealing and helps viewers see some of the patterns across the overall dataset more easily.
 
 
 
